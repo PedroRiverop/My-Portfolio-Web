@@ -31,29 +31,24 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "CERBRO",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "ISO 27001 Implementation Management Platform for Businesses.",
+    url: "https://github.com/PedroRiverop/Plataforma-de-Gestion-de-Implementacion-ISO27001",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Star Wars Blog",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed a comprehensive web platform designed to streamline the ISO 27001 certification process, enabling organizations to efficiently manage all aspects related to the certification domains for information security.",
+    url: "https://github.com/PedroRiverop/Jpedroriverop-Blog-de-StarWars",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://github.com/PedroRiverop/My-Portfolio-Web",
   },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+  
 ];
 
 const Portfolio = () => {
