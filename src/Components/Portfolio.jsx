@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/design-pink.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -33,13 +33,13 @@ const projectList = [
   {
     title: "CERBRO",
     description:
-      "ISO 27001 Implementation Management Platform for Businesses.",
+      "Developed a comprehensive web platform designed to streamline the ISO 27001 certification process, enabling organizations to efficiently manage all aspects related to the certification domains for information security.",
     url: "https://github.com/PedroRiverop/Plataforma-de-Gestion-de-Implementacion-ISO27001",
   },
   {
     title: "Star Wars Blog",
     description:
-      "Developed a comprehensive web platform designed to streamline the ISO 27001 certification process, enabling organizations to efficiently manage all aspects related to the certification domains for information security.",
+      " Star Wars Blog web with a Read Later or Favorites list functionality using Flask and SQLalchemy",
     url: "https://github.com/PedroRiverop/Jpedroriverop-Blog-de-StarWars",
   },
   {
@@ -59,7 +59,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "80%", width: "80%", objectFit: "cover", borderRadius: "1rem", marginLeft: "2rem", }}
             alt={imageAltText}
           />
         </div>
